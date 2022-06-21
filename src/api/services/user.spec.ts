@@ -1,4 +1,4 @@
-import user from '../user'
+import user from './user'
 
 describe('auth', () => {
   it('should resolve with true and valid userId for hardcoded token', async () => {

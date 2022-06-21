@@ -4,10 +4,10 @@ info:
   description: Backend API sample API declaration
   termsOfService: http://swagger.io/terms/
   contact:
-    email: losikov@gmail.com
+    email: antony.suresh@gmail.com
   license:
-    name: MIT
-    url: https://opensource.org/licenses/MIT
+    name: None
+    url: None
   version: 1.0.0
 externalDocs:
   description: Find out more about Swagger
@@ -22,7 +22,7 @@ tags:
 paths:
   /hello:
     get:
-      description: Returns 'Hello <name>/stranger!!!' to the caller
+      description: Returns 'Hello <name>!!!' to the caller
       tags: 
         - greeting
       operationId: hello
